@@ -1,0 +1,42 @@
+{% extends 'index_1.html' %}
+{% block content %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+  var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Число');
+      data.addColumn('number', 'ночь');
+      data.addColumn('number', 'день');
+
+      data.addRows( [{% for i in Rez %} [ new Date ('{{ i.created_date | date:'Y-m-d' }}') , {{ i.energy_night }}, {{ i.energy_day }}] , {% endfor %} ]);
+
+
+
+var options = {
+          chart: {
+            title: 'kWh день - ночь',
+            subtitle: 'День с 7:00 до 23:00',
+          }
+         // isStacked: true
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 850px; height: 500px;"></div>
+  </body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'index_1.html' %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+        <h3>Новая Заправка:</h3>
+
+
+
+
+<form method="POST" enctype="multipart/form-data" action="">{% csrf_token %}
+
+
+    {{ form | crispy }}
+
+        <button type="submit"  class="btn btn-outline-success my-2 my-sm-0" >Save</button>
+    </form>
+
+{% endblock %}
+

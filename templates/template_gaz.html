@@ -1,0 +1,46 @@
+{% extends 'index_1.html' %}
+
+{% block content %}
+
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% load chart_tags %}
+
+<table class="table table-sm">
+        <tr><th>Total per month:</th><th></th></tr>
+        <tr><td>  </td><td> {% bar_chart values_a captions_a %} </td></tr>
+    </table>
+
+
+
+    <table class="table table-sm">
+        <<td><b>Период</b> </td>
+            <td><b>Средняя цена/л, грн</b></td>
+            <td><b>Всего, грн</b></td>
+            <td><b>Заправок</b></td>
+            <td><b>Литров</b></td>
+            <td><b>Пробег, км</b></td>
+            <td><b>Расход </b></td>
+             <td><b>Расход </b></td>
+
+        {% for gaz in values %}
+        <tr>   <td> {{ gaz.created_date }} </td>
+
+            <td> {{ gaz.fuel_type }} </td>
+            <td> {{ gaz.station }} </td>
+            <td> {{ gaz.price_before_disc |floatformat }} </td>
+            <td> {{ gaz.liters |floatformat}} </td>
+            <td> {{ gaz.millage |floatformat}} </td>
+            <td> {{ gaz.disc |floatformat}} </td>
+            <td> {{ gaz.rashod |floatformat}} </td>
+        </tr>
+
+        {% endfor %}
+    </table>
+
+
+
+
+
+
+{% endblock %}

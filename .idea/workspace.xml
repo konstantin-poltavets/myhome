@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90c1bb99-5f14-451d-9924-1b2ddc0f1c63" name="Default Changelist" comment="home2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="IoT" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ROOT_URLCONF</find>
+      <find>Dja</find>
+      <find>Home</find>
+      <find>MESSAGE_</find>
+      <find>STATIC</find>
+      <find>static</find>
+      <find>style</find>
+      <find>modules_l</find>
+      <find>boards_lis</find>
+      <find>num</find>
+      <find>boards_</find>
+      <find>boards</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\konst\PycharmProjects\IoT\home\iot\templates\iot</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\poltavet\PycharmProjects\IoT\home\iot" />
+      <recent name="C:\Users\konst\PycharmProjects\IoT\home\iot\static\iot" />
+      <recent name="C:\Users\konst\PycharmProjects\IoT\home\iot\static\iot\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\poltavet\PycharmProjects\IoT\home\iot\templates\iot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Rasp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="Rasp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IoT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home/iot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home/iot/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Rasp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Rasp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Rasp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\konst\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c1bb99-5f14-451d-9924-1b2ddc0f1c63" name="Default Changelist" comment="" />
+      <created>1560357395323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560357395323</updated>
+    </task>
+    <task id="LOCAL-00001" summary="home1">
+      <created>1560362290843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560362290843</updated>
+    </task>
+    <task id="LOCAL-00002" summary="home1">
+      <created>1560367309159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560367309159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="home1">
+      <created>1560438540399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560438540399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="home1">
+      <created>1560801622979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560801622979</updated>
+    </task>
+    <task id="LOCAL-00005" summary="office1">
+      <created>1560923315349</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560923315349</updated>
+    </task>
+    <task id="LOCAL-00006" summary="office1">
+      <created>1560942642823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560942642823</updated>
+    </task>
+    <task id="LOCAL-00007" summary="office1">
+      <created>1560943806244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560943806244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Default Changelist">
+      <created>1560973216882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560973216882</updated>
+    </task>
+    <task id="LOCAL-00009" summary="home2">
+      <created>1561047027380</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561047027380</updated>
+    </task>
+    <task id="LOCAL-00010" summary="home2">
+      <created>1578684148666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578684148666</updated>
+    </task>
+    <task id="LOCAL-00011" summary="home2">
+      <created>1578684956893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578684956893</updated>
+    </task>
+    <task id="LOCAL-00012" summary="home2">
+      <created>1578686135692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578686135692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="home2">
+      <created>1578686718141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578686718141</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="home1" />
+    <MESSAGE value="office1" />
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="home2" />
+    <option name="LAST_COMMIT_MESSAGE" value="home2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="646" y="119" width="1115" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578683650458">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="646" y="119" width="1115" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1042@0.0.1920.1042" timestamp="1578683650458" />
+    <state x="598" y="287" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578685700332">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="598" y="287" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1042@0.0.1920.1042" timestamp="1578685700332" />
+    <state x="567" y="13" key="#manage" timestamp="1578683587719">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="567" y="13" key="#manage/0.0.1920.1042@0.0.1920.1042" timestamp="1578683587719" />
+    <state x="453" y="0" width="1404" height="1042" key="CommitChangelistDialog2" timestamp="1578686717217">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="453" y="0" width="1404" height="1042" key="CommitChangelistDialog2/0.0.1920.1042@0.0.1920.1042" timestamp="1578686717217" />
+    <state x="874" y="144" key="FileChooserDialogImpl" timestamp="1578683637847">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="874" y="144" key="FileChooserDialogImpl/0.0.1920.1042@0.0.1920.1042" timestamp="1578683637847" />
+    <state width="1886" height="242" key="GridCell.Tab.0.bottom" timestamp="1578686080136">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state width="1886" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1042@0.0.1920.1042" timestamp="1578686080136" />
+    <state width="1886" height="242" key="GridCell.Tab.0.center" timestamp="1578686080136">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state width="1886" height="242" key="GridCell.Tab.0.center/0.0.1920.1042@0.0.1920.1042" timestamp="1578686080136" />
+    <state width="1886" height="242" key="GridCell.Tab.0.left" timestamp="1578686080136">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state width="1886" height="242" key="GridCell.Tab.0.left/0.0.1920.1042@0.0.1920.1042" timestamp="1578686080136" />
+    <state width="1886" height="242" key="GridCell.Tab.0.right" timestamp="1578686080136">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state width="1886" height="242" key="GridCell.Tab.0.right/0.0.1920.1042@0.0.1920.1042" timestamp="1578686080136" />
+    <state x="531" y="95" key="MultipleFileMergeDialog" timestamp="1578683424914">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="531" y="95" key="MultipleFileMergeDialog/0.0.1920.1042@0.0.1920.1042" timestamp="1578683424914" />
+    <state x="648" y="81" key="VCS.ChangeListViewerDialog" timestamp="1578682212175">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="648" y="81" key="VCS.ChangeListViewerDialog/0.0.1920.1042@0.0.1920.1042" timestamp="1578682212175" />
+    <state x="349" y="124" key="Vcs.Push.Dialog.v2" timestamp="1578686786808">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="349" y="124" key="Vcs.Push.Dialog.v2/0.0.1920.1042@0.0.1920.1042" timestamp="1578686786808" />
+    <state x="673" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578690545007">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="673" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1042@0.0.1920.1042" timestamp="1578690545007" />
+    <state x="519" y="229" key="git4idea.merge.GitPullDialog" timestamp="1578682812340">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="519" y="229" key="git4idea.merge.GitPullDialog/0.0.1920.1042@0.0.1920.1042" timestamp="1578682812340" />
+    <state x="473" y="322" key="git4idea.ui.GitUnstashDialog" timestamp="1578682218836">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="473" y="322" key="git4idea.ui.GitUnstashDialog/0.0.1920.1042@0.0.1920.1042" timestamp="1578682218836" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="request" />
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

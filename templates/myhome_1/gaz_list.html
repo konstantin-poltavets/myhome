@@ -1,0 +1,29 @@
+{% extends 'index_1.html' %}
+
+<div class="row">
+    <div class="col-xs-12">
+
+{% block content %}
+<h3>Р—Р°РїСЂР°РІРєРё:</h3>
+
+{% load staticfiles %}
+
+<form>{% csrf_token %}
+    <table class="table table-hover"  width="100%">
+        <tr><th>Р”Р°С‚Р°</th> <th>РўРёРї</th><th>Р—Р°РїСЂР°РІРєР°</th><th>Р¦РµРЅР°</th><th>Р›РёС‚СЂРѕРІ</th><th>Р—Р° Р»РёС‚СЂ</th></tr>
+
+    {% for gaz in object_list %}
+
+        <tr>   <td> {{ gaz.created_date }} </td> <td> {{ gaz.fuel_type }} </td><td> {{ gaz.station_type }} </td> <td> {{ gaz.price }} </td><td> {{ gaz.liters }} </td> <td>  </td></tr>
+
+       {% endfor %}
+
+    </table>
+
+
+ </form>
+
+{% endblock %}
+
+    </div>
+</div>

@@ -1,0 +1,62 @@
+{% extends 'index_1.html' %}
+{% block content %}
+
+{% load googlecharts %}
+
+<div class="container">
+	<div class="row">
+
+<div class="col" id="sum_graph"> <h1>Energy</h1> </div>
+<br>
+<br>
+
+	</div>
+    
+    
+    
+    <div id="table" class="col">
+   <table class="table table-sm">
+        <tr><th>Date</th><th>Energy</th><th>Power</th></tr>
+        {% for el in values %}
+        <tr>   <td> {{ el.values }} </td>
+            <td> {{ el.energy }} </td>
+
+        </tr>
+
+        {% endfor %}
+    </table>
+	</div>
+    
+    
+
+{% googlecharts %}
+
+	{% data values "sum" %}
+
+		{% col "string" "Date" %}"{{ val|date:"H " }}"{% endcol %}
+		{% col "number" "# energy" %}{{ val }}{% endcol %}
+        
+	{% enddata %}
+
+	{% options %}
+		kind: "ColumnChart",
+		options: {
+			backgroundColor: "#f9f9f9",
+			colors: ["#09f"],
+			gridlineColor: "#ddd",
+			legend: "none",
+			vAxis: {minValue: 0},
+			chartArea: {left: 40, top: 40, width: 440, height: 180},
+			width: 600,
+			height: 240,
+			isStacked: true
+		}
+	{% endoptions %}
+
+	{% graph "sum_graph" "sum" %}
+
+
+
+
+{% endgooglecharts %}
+{% endblock %}

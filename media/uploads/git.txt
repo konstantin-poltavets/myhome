@@ -1,0 +1,16 @@
+mkdir
+cd dir
+git init
+touch readme.txt
+
+git add readme.txt
+git add *
+
+git config --global user.email konstantin.poltavets@gmail.com
+git config --global user.name konstantin.poltavets
+git commit -m "First commit"
+
+git remote add origin https://github.com/konstantin-poltavets/Rasp_iot.git
+git push -u origin master
+
+git branch --set-upstream-to=origin/master master

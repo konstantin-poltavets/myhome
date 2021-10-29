@@ -1,0 +1,179 @@
+{% extends 'index_1.html' %}
+{% block content %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+  var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Число');
+      data.addColumn('number', 'ночь');
+      data.addColumn('number', 'день');
+
+      data.addRows( [{% for i in queryset %} [ new Date ('{{ i.created_date | date:'Y-m-d' }}') , {{ i.energy_night }}, {{ i.energy_day }}] , {% endfor %} ]);
+
+
+
+var options = {
+          chart: {
+            title: 'kWh день - ночь',
+            subtitle: 'День с 7:00 до 23:00',
+            isStacked: true
+          }
+               };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    
+    
+    
+
+    
+  </head>
+  <body>
+  <br>
+  <br>
+ 
+ <form action="/api-mqtt/electro_zones/" method="get">
+ <div style="right: 100px">
+  <label for="e-month"> <h5>Выбор месяца:</h5> </label><br>
+  <input id="e-month" type="month" name="e-month"
+         min="2021-01" max="2055-12" value = "2021-04" class="form-check-label">
+         
+   <input type="submit" value="Показать" class="btn btn-primary">     
+</div>     
+</form>
+
+  
+    <div id="columnchart_material" style="width: 100%; height: 500px; left: auto"></div>
+
+
+    <form>
+      
+
+      <div class="container">
+        <div class="row">
+
+
+
+          <h5>Показания счетчика:</h5>
+
+          <table class="table table-sm"  style= "width=90%; left: auto">
+            <thead class="thead-light">
+                  <th></th>
+                  <th>Ночь</th>
+                  <th>День</th>
+                  <th>Всего</th>        
+                </thead>
+              </tr>
+       
+              <tr class="table-danger">
+                <td>  </td>
+                  <td> {{ night_electro_meter | floatformat }} </td>
+                  <td> {{ day_electro_meter | floatformat}} </td>
+                  <td> {{ electro_meter  | floatformat}} </td> 
+      
+              </tr>
+    
+          </table>
+
+
+
+          <h5> Всего за месяц Квт.ч:</h5>
+
+      <table class="table table-sm"  style= "width=90%; left: auto">
+        <thead class="thead-light">
+              <th></th>
+              <th>Ночь</th>
+              <th>День</th>
+              <th>Всего</th>        
+            </thead>
+          </tr>
+   
+          <tr class="table-danger">
+            <td>  </td>
+              <td> {{ energy_sum_night | floatformat }} </td>
+              <td> {{ energy_sum_day | floatformat}} </td>
+              <td> {{ energy_sum  | floatformat}} </td> 
+  
+          </tr>
+
+      </table>
+
+
+
+
+      <h5> Всего за месяц Грн:</h5>
+
+      <table class="table table-sm"  style= "width=90%; left: auto">
+        <thead class="thead-light">
+              <th></th>
+              <th>Ночь</th>
+              <th>День</th>
+              <th>Всего</th>        
+            </thead>
+          </tr>
+   
+          <tr class="table-danger">
+            <td>  </td>
+              <td> {{ price_sum_night | floatformat }} </td>
+              <td> {{ price_sum_day | floatformat}} </td>
+              <td> {{ price_sum  | floatformat}} </td> 
+  
+          </tr>
+
+      </table>
+
+
+
+<h5> По дням Квт.ч:</h5>
+
+<br>
+      <table class="table table-sm"  width="80%">
+        <thead class="thead-dark">
+        <th>Дата</th>
+        <th>Ночь</th>
+        <th>День</th>
+        <th>Всего</th>
+      </thead>
+
+    </tr>
+
+ {% for i in queryset %}
+    <tr>
+
+      <td> {{ i.created_date  }} </td>
+        <td> {{ i.energy_night  }} </td>
+        <td> {{ i.energy_day    }} </td>
+        <td> {{ i.energy_all}} </td>
+
+        {% endfor %}
+
+    </tr>
+
+
+</table>
+
+</div>
+</div>
+
+
+  
+           {% endblock %}
+   </form>
+  
+
+
+
+  </body>
+</html>
+

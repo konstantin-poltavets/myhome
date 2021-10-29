@@ -1,0 +1,32 @@
+body {
+    padding-left: 15px;
+}
+h1 a {
+    color: grey;
+    font-family: 'Lobster';
+    font-size: 75%;
+}
+#p1 {
+    color: blue;
+    font-family: 'Lobster';
+    font-size: 200%;
+}
+div.div-1a{
+    width: 12%;
+    float: left;
+    height: 100px;
+    position: relative;
+
+}
+div.div-1b{
+    width: 80%;
+    float: left;
+    height: 100px;
+    position: relative;
+}
+
+
+hr {
+    color: grey;
+    border-width: 2px;
+}

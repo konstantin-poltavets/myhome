@@ -1,0 +1,1 @@
+{"device":"ESP8266","location":"bath","temp":"27.80","hum":"31.40"}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Electro all</title>
+
+{% block content %}
+{% load static %}
+  <title>Electro all</title>
+        <link rel="stylesheet" href="{% static 'iot/css/example_1.css' %}">
+  <script type="text/javascript" language= "javascript"></script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+
+<script src="{% static 'iot/js/sevenSeg.js' %}"></script>
+<script src="{% static 'iot/js/indicator_electro_all.js' %}" > </script>
+  <script src="{% static 'iot/js/paho-mqtt.js' %}"> </script>
+
+
+      <!--link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/-->
+
+
+     </head>
+
+
+  <body>
+
+
+  <div class="container">
+ <div id="messages"  class="container-fluid"></div>
+     <div class="row">
+       <div  class="col"> <h4> Voltage, V: </h4></div>
+     <div    class="col" > <h4> Current,  A: </h4></div>
+
+ </div>
+      <div class="row">
+  <div id="seven-seg-array"  class="col"  ></div>
+     <div id="seven-seg-array_v"  class="col"  ></div>
+
+ </div>
+ </div>
+      <br>
+  <div class="container">
+  
+  
+  
+  
+  
+    <div class="container">
+
+     <div class="row">
+       <div  class="col"> <h3> Power, W: </h3></div>
+		<div class="col" > <h3> Cos: </h3>    </div>
+
+ </div>
+ 
+
+
+     <div class="row">
+  <div id="seven-seg-array_p"  class="col"  ></div>
+     <div id="seven-seg-array_f"  class="col"  ></div>
+
+ </div>
+ </div>
+      <br>
+
+
+  <div class="container">
+  
+  
+     <div class="container">
+
+     <div class="row">
+       <div  class="col"> <h3> Energy, kWh: </h3></div>
+		<div  class="col"> <h3> Frequency, Hz: </h3></div>
+ </div>
+ 
+     <div class="row">
+     <div id="seven-seg-array_e"  class="col"  ></div>
+	<div id="seven-seg-array_h"  class="col"></div>
+ </div>
+ </div>
+
+
+
+      <div  id="curve_chart" class="row" ></div>
+</div>
+
+
+
+
+
+
+   <script>
+  startConnect();
+  </script>
+
+  <!--script>
+
+	$(window).on("beforeunload", function() {
+
+		return "Вы уверены, что хотите покинуть страницу?";
+
+	});
+
+	$(document).on("submit", "form", function(event) {
+
+		$(window).off("beforeunload");
+
+	});
+
+</script-->
+
+<form action= "{% url 'orbi_stop' %}" method="LINK">
+  <input id="elem" type="submit" class="btn btn-danger" value="Stop" >
+<!--script>
+  elem.onclick = function() {
+    alert('Спасибо');
+
+  };
+</script-->
+</form>
+
+{% endblock %}
+
+  </body>
+
+</html>

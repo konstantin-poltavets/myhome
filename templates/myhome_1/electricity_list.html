@@ -1,0 +1,58 @@
+{% extends 'index_1.html' %}
+
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+
+{% block content %}
+<h3>Electricity:</h3>
+
+{% load staticfiles %}
+
+<form>{% csrf_token %}
+    <table class="table table-sm"  width="130%">
+        <tr><th>param </th>
+            <th>created_date </th>
+            <th>current</th>
+            <th>energy</th>
+            <th>voltage</th>
+            <th>frequency</th>
+            <th>pf</th>
+            <th>power</th>
+
+        </tr>
+
+    {% for electro in object_list %}
+
+        <tr>
+
+            <td> {{ electro.id }} </td>
+            {% load tz %}
+            {% timezone "UTC" %}
+            <td> {{ electro.created_date }} </td>
+            {% endtimezone %}
+           
+            <td> {{ electro.current |floatformat}} </td>
+            <td> {{ electro.energy |floatformat }} </td>
+            <td> {{ electro.voltage |floatformat}} </td>
+            <td> {{ electro.frequency |floatformat}} </td>
+            <td> {{ electro.pf |floatformat}} </td>
+            <td> {{ electro.power |floatformat}} </td>
+
+        </tr>
+
+       {% endfor %}
+
+    </table>
+
+
+ </form>
+
+{% endblock %}
+
+
+
+    </div>
+</div>

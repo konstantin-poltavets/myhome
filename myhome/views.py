@@ -45,3 +45,5 @@ def first(request):
 def pi_status(request):
     data = status_all()
     return render(request, 'pi_status.html', {"context" : data})
+
+#test
